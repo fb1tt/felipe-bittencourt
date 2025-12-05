@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: var(--bg);
+    color: var(--texto);
+}
+
+:root {
+    --bg: #ffffff;
+    --texto: #000000;
+}
+
+.dark {
+    --bg: #1a1a1a;
+    --texto: #ffffff;
+}
+
+header {
+    background: #333;
+    padding: 15px;
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    padding: 20px;
+}
+
+button {
+    padding: 8px 12px;
+    margin-left: 20px;
+}
